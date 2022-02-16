@@ -4,9 +4,9 @@ export default function SmallPersonListItem({ person }) {
     const {name, age} = person;
 
   return (
-    <div>
+    <div style={{backgroundColor: "blanchedalmond"}}>
         <p>
-            Name: {name}
+            Name: {name}, Age: {age} years
         </p>
     </div>
   )
